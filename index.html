@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+            <!-- Render All Element Normaly -->
+            <link rel="stylesheet" href="font awsome/Normalize.css">
+            <!-- Font Awsom Library  -->
+            <link rel="stylesheet" href="font awsome/all.min.css">
+          <!-- Google Font  -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,500;0,700;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Quis.css">
+        
+    <title>Quiz Game</title>
+</head>
+<body>
+
+    <div class="Start_Game">
+        <span>إبدأ اللعبة</span>
+    </div>
+
+    <div class = "cover" ></div>
+
+          <div class="quiz-app">
+              <div class="quiz-info" >
+                <i class="fas fa-sync"></i>
+                  <div class="category"> الفئة <span>منوعه</span> </div>
+                    <div class="count">    عدد الأسئلة    <span></span></div>
+              </div>
+              <div class="quiz-area">
+                <!-- <h2>why we use &lt;br&gt; element</h2> -->
+              </div>
+         
+              <div class="answers-area">
+                  <!-- <div class="answer">
+                      <input type="radio" id = "answer_1" name="questions" checked>
+                      <label for="answer_1">To Make Text Bold</label>
+                  </div>
+
+                  <div class="answer">
+                    <input type="radio" id = "answer_2" name="questions">
+                    <label for="answer_2">To Make Text italik</label>
+                </div>
+
+                <div class="answer">
+                    <input type="radio" id = "answer_3" name="questions">
+                    <label for="answer_3">to add break line</label>
+                </div>
+
+                <div class="answer">
+                    <input type="radio" id = "answer_4" name="questions">
+                    <label for="answer_4">to create horizontal Line</label>
+                </div> -->
+              </div>
+                <button  class="submit_button">تثبيت الجواب</button>
+                <div class="bullets">
+                        <div class="spans">
+    
+                        </div>
+                        <div class="countdown">
+                               <span class="minutes"></span> 
+                               <span class="seconds"></span>
+                        </div>
+                </div>
+                <div class="results">
+                    <!-- <span class="perfect">perfect</span> -->
+                    <!-- You Answered 10 from 10 -->
+                </div>
+          </div>  
+
+            <audio src="sounds/s1.m4a" id="success" preload="auto"></audio>
+            <audio src="sounds/f1.m4a" id="fail" preload="auto"></audio>
+          <script src="JQuery Library/jquery-3.6.0.min.js"></script>
+    <script src="Quis.js"></script>
+</body>
+</html>
